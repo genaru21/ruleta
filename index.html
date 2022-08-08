@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roulette game</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="data:,">
+</head>
+
+<body>
+  <div id="premio">
+
+    <table style=" margin: 0 auto;">
+      <tr>
+      <tr>
+        <td>
+          <p class="contador">TURNOS: 0</p>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <div class="vara"></div>
+  <div>
+    <img src="imagen.png" id="ruleta">
+  </div>
+  <div>
+    <div id="sonido" style="display: none;">
+      <iframe src="sonido/ruleta.mp3" id="audio"></iframe>
+
+    </div>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
